@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Communication">
+      <UniqueIdentifier>{5cb1c179-92ab-4cf3-999f-bb1cc8ce2acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Definition">
+      <UniqueIdentifier>{9bb37740-cf8f-48f9-a9f5-3b2456ea9c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{28fd2e47-d7fd-4b72-bee1-3ffd5bd481ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Injection">
+      <UniqueIdentifier>{e03e37e0-d4a8-458f-9f7a-3ace8b954866}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Injection\injector.h">
+      <Filter>Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\defines.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\driver.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Definition\stdafx.h">
+      <Filter>Definition</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\api.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\drvutils.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\shellcode.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\xor.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Injection\Utilities.h">
+      <Filter>Injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\Utils.h">
+      <Filter>Communication</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver\driver.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
