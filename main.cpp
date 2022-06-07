@@ -81,7 +81,8 @@ void TitleThread()
 std::thread Title(TitleThread);
 int main()
 {
-
+	Title.detach();
+	
 	HANDLE hInput;
 	DWORD prev_mode;
 	hInput = GetStdHandle(STD_INPUT_HANDLE);
