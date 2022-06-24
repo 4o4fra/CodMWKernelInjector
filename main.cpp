@@ -45,7 +45,7 @@ void setcolor(unsigned short color)
 
 void SetConsoleWindow(HANDLE conout, SHORT cols, SHORT rows)
 {
-	CONSOLE_SCREEN_BUFFER_INFOEX sbInfoEx;
+	CONSOLE_SCREEN_BUFFER_INFOEX sbInfoEx{};
 	sbInfoEx.cbSize = sizeof(CONSOLE_SCREEN_BUFFER_INFOEX);
 	GetConsoleScreenBufferInfoEx(conout, &sbInfoEx);
 	sbInfoEx.dwSize.X = cols;
