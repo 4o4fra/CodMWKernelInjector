@@ -12,7 +12,8 @@
 #include <conio.h>
 #include <tchar.h>
 #include <urlmon.h>
-#define _WIN32_WINNT 0x0500
+
+constexpr auto WIN32_WINNT = 0X0500;
 #include <iostream>
 #include <Windows.h>
 #include <string>
